@@ -1,0 +1,139 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+.bg {
+	/* The image used */
+	background-image: url("./img/background.jpg");
+   
+	/* Full height */
+	height: 100%;
+   
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+   }
+
+header
+{
+    background-color: #025949;
+    width: 100%;
+    height: 90px;
+    color: black;
+    display: inline-flex;
+    flex-wrap:wrap ;
+
+}
+
+a
+{
+
+	color: black;
+
+}
+header h1
+{
+
+	padding: 15px;
+}
+@font-face{
+
+	font-family: myfont; 
+	src: url(./font/Pacifico-Regular.ttf);
+
+}
+h1
+{
+
+
+	font-family: myfont;
+
+}
+.icerik
+{
+
+	display: inline-flex;
+	flex-wrap:wrap ;
+
+}
+
+.box
+{
+
+	background-color: #027353;
+	display: inline-table;
+	flex-wrap:wrap-reverse ;
+	width: 400px;
+	height: 530px;
+	margin: 15px 20px;
+	text-align: center;
+	color: black;
+	font-size: 28px;
+}
+.boxin{
+
+	margin: 25px;
+
+
+}
+#profil
+{
+	height: 7em;
+	width: 7em;
+	border-radius:900px;
+}
+
+a {
+    
+    text-decoration: none;
+    
+}
+
+a.link  {
+    
+    text-decoration: none;  
+    
+}
+
+a.visited {
+  text-decoration: none;
+}
+
+a.hover {
+  text-decoration: none;
+}
+
+
+footer{
+	background-color: #025949;
+	width: 100%;
+	height: 150px;
+	font-size: 25px;
+}
+.footer-in{
+
+	background-color: #025949;
+	height: 75px;
+	
+
+
+
+}
+.footer-in a {
+
+	padding: 10px;
+
+}
+.footer-in2{
+
+
+	background-color: #013A40;
+	height: 75px;
+	font-size: 25px;
+
+
+
+}
